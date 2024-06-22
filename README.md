@@ -1,4 +1,5 @@
 # Imbalanced Classification Prediction
+![pipeline](pipeline.png)
 
 Traditional machine learning models often struggle with imbalanced datasets, where one class is vastly outnumbered by another. This imbalance can lead to models that perform poorly at detecting the minority class due to bias towards the majority class. To enhance a model's ability to identify the minority class accurately, this project levarages `imbalanced-learn` resamplers, notably; RandomOverSampler, RandomUnderSampler, TomekLinks, SMOTE, SMOTETomek, and ADASYN. These were tested on three models: Logistic Regression (L1), Logistic Regression (L2), and RandomForestClassifier. The best model was identified for each model-resampler was identified and evaluated against each other on the basis of Average Precision (PR-AUC), and ROC-AUC. 
 
